@@ -53,5 +53,7 @@ class NormalClassSingletonOrnek
         {
             _instance = new NormalClassSingletonOrnek();
         }
+
+        return _instance;
     }
 }
